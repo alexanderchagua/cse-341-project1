@@ -25,7 +25,4 @@
     "swagger-autogen": "^2.23.5"
   }
 
-  "engines": {
-    "node": ">=14 <15"
-  }
 }
