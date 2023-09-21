@@ -1,5 +1,5 @@
 const express = require('express');
-const swaggerAutogen = require('swagger-autogen')();
+
 
 const mongodb = require('./routes/data/database');
 const app = express();
