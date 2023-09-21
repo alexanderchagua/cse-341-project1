@@ -1,1 +1,5 @@
 GET http://localhost:3000/users
+
+###GET users by id
+
+GET http://localhost:3000/users/650699ffefe0b005eea1a5ad
