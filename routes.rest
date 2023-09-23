@@ -3,3 +3,32 @@ GET http://localhost:3000/users
 ###GET users by id
 
 GET http://localhost:3000/users/650699ffefe0b005eea1a5ad
+
+### Create Contact
+POST http://localhost:3000/users HTTP/1.1
+Content-type: aplication/json
+
+{
+    "name": "example",
+    "lastname": "example2",
+    "email": "test@example.com",
+    "favorite_color": "casas",
+    "birthdate": "10-08-1991"
+}
+
+###PUT contact
+
+PUT http://localhost:3000/users/65069a5eefe0b005eea1a5af HTTP/1.1
+Content-type: application/json
+
+{
+    "name": "example",
+    "lastname": "example2",
+    "email": "test@example.com",
+    "favorite_color": "casas",
+    "birthdate": "10-08-1991"
+}
+
+### DELETE contact
+
+DELETE http://localhost:3000/users/65069a5eefe0b005eea1a5af HTTP/1.1
